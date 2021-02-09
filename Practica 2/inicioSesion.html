@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <link rel="shortcut icon" href="static/images/Atleti.png">
+        <title>Práctica 2. Atletico de Madrid</title>
+        <link href="static/CSS/inicioSesion.css" rel="stylesheet" type="text/css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    </head>
+
+    <body>
+        <div class="pagina">
+            <div class="Titulo">
+                <h1> <img src="static/images/Atleti.png" alt="" width="5%" height="5%"/>     Club Atletico de Madrid </h1>
+            </div>
+            <div class="InicioSesion">
+                <div class="container">
+                    <h2>Inicio de sesion</h2>
+                    <p> ¡Inicie sesion con sus datos para poder acceder al contenido! </p>
+                    <form action="/action_page.php" class="was-validated">
+                        <div class="form-group">
+                            <label for="uname">Usuario:</label>
+                            <input type="text" class="form-control" id="uname" placeholder="Enter username" name="uname" required>
+                            <div class="valid-feedback">Valido.</div>
+                            <div class="invalid-feedback">Introduzca su correo.</div>
+                        </div>
+                        <div class="form-group">
+                            <label for="pwd">Contraseña:</label>
+                            <input type="password" class="form-control" id="pwd" placeholder="Enter password" name="pswd" required>
+                            <div class="valid-feedback">Valido.</div>
+                            <div class="invalid-feedback">Introduzca su contraseña.</div>
+                        </div>
+                        <div class="form-group form-check">
+                            <label class="form-check-label">
+                                <input class="form-check-input" type="checkbox" name="remember" required> Acepto las condiciones de uso.
+                                <div class="valid-feedback">Valido.</div>
+                            </label>
+                        </div>
+                        <a href="index.html" class="btn btn-danger" role="button">Iniciar sesion</a>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

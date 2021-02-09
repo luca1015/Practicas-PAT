@@ -1,0 +1,29 @@
+
+.Titulo{
+    font-size: 15pt;
+    text-align: center;
+    background: rgb(204, 68, 74);
+    background-size: 100% 100%;
+    height: 60%;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    padding-top: 2%;
+}
+.Contenido {
+    padding-top: 5%;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+.Imagenes{
+    float: left;
+    width: 50%;
+    height: 50%;
+    padding-right: 2%;
+}
+.carousel-inner img{
+    width: 100%;
+    height: 100%;
+}
