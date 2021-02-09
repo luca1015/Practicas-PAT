@@ -18,3 +18,22 @@
     margin-left:15%;
     margin-right:15%;
 }
+.Copyright{
+    background: rgb(204, 68, 74);
+    height: 100%;
+    color:white;
+}
+footer {
+    position: relative;
+    width: 100%;
+    color: white;
+    margin-top: 5%;
+}
+.social{
+    align: center;
+}
+.alert-warning{
+    margin-top: 2%;
+    width: 55%;
+
+}

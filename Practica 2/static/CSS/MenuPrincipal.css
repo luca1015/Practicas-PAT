@@ -12,14 +12,22 @@
     flex-direction: column;
     padding-top: 2%;
 }
-.Contenido {
+.Multimedia {
     padding-top: 5%;
     padding-left: 5%;
-    padding-right: 5%;
+    padding-right:4%;
+    padding-bottom:25%;
+
 }
 .Imagenes{
     float: left;
-    width: 50%;
+    width: 55%;
+    height: 50%;
+    padding-right: 2%;
+}
+.Video{
+    float: left;
+    width: 45%;
     height: 50%;
     padding-right: 2%;
 }
@@ -27,3 +35,35 @@
     width: 100%;
     height: 100%;
 }
+.tituloTabla{
+    background: rgb(204, 68, 74);
+    color: white;
+}
+.Clasificacion{
+    width:40%;
+    margin-left: 5%;
+}
+
+footer {
+    position: relative;
+    width: 100%;
+    color: white;
+    margin-top: 5%;
+}
+.social{
+    align: center;
+}
+.Copyright{
+    background: rgb(204, 68, 74);
+    height: 100%;
+    color:white;
+}
+.nav-link{
+    color:rgb(204, 68, 74);
+}
+.nav-pills,.p-3{
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 2%;
+}
+
