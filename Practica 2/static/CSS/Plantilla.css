@@ -1,0 +1,57 @@
+.Titulo{
+    font-size: 15pt;
+    text-align: center;
+    background: rgb(204, 68, 74);
+    background-size: 100% 100%;
+    height: 60%;
+    color: white;
+    padding-top: 2%;
+}
+.bar{
+    margin-bottom: 2%;
+
+}
+.Copyright{
+    background: rgb(204, 68, 74);
+    height: 100%;
+    color:white;
+}
+footer {
+    position: relative;
+    width: 100%;
+    color: white;
+    margin-top: 5%;
+}
+.social{
+    align: center;
+}
+.texto-Plantilla, .Linea,.columnas-jugadores{
+    margin-left: 10%;
+    margin-right: 10%;
+    width: 80%;
+}
+.columnas{
+    float: left;
+    margin-left:13%;
+    width: 30%;
+}
+.nav-link{
+    color:rgb(204, 68, 74);
+}
+.columnnas-datos,.columnas{
+    display:block;
+}
+.c-titulo{
+    color:white;
+    background: black;
+}
+.img2 {
+    margin: auto;
+    display: block;
+}
+.c-texto{
+    text-align: center;
+}
+.celda{
+    width:25%;
+}
