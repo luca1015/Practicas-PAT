@@ -39,9 +39,14 @@
     background: rgb(204, 68, 74);
     color: white;
 }
+.Tablas{
+    margin-bottom: 34%;
+}
 .Clasificacion{
     width:40%;
+    float:left;
     margin-left: 5%;
+    margin-right: 5%;
 }
 
 footer {
@@ -49,6 +54,15 @@ footer {
     width: 100%;
     color: white;
     margin-top: 5%;
+}
+.caja-texto{
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 2%;
+    width: 90%;
+}
+.caja{
+    width: 100%;
 }
 .social{
     align: center;
