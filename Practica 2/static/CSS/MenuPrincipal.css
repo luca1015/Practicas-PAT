@@ -9,11 +9,10 @@
     padding-top: 2%;
 }
 .Multimedia {
-    padding-top: 5%;
+    padding-top: 2%;
     padding-left: 5%;
     padding-right:4%;
-    padding-bottom:25%;
-
+    overflow: hidden;
 }
 .Imagenes{
     float: left;
@@ -36,13 +35,20 @@
     color: white;
 }
 .Tablas{
-    margin-bottom: 34%;
-}
-.Clasificacion{
-    width:40%;
-    float:left;
+    padding-top: 2%;
+    overflow: hidden;
     margin-left: 5%;
     margin-right: 5%;
+}
+.tabla1{
+    width: 42%;
+    margin-right: 5%;
+}
+.tabla2{
+    width: 53%;
+}
+.Clasificacion{
+    float:left;
 }
 
 footer {
@@ -75,5 +81,12 @@ footer {
     margin-left: 5%;
     margin-right: 5%;
     margin-top: 2%;
+}
+.comentar{
+    margin-left: 5%;
+    margin-top: 1%;
+}
+.wd{
+    width:60px;
 }
 

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <link rel="shortcut icon" href="static/images/Atleti.png">
+        <title>Práctica 2. Atletico de Madrid</title>
+        <link href="static/CSS/laLiga.css" rel="stylesheet" type="text/css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+        <script type="text/javascript" src="laLiga.js"></script>
+
+    </head>
+
+    <body onload="genera_tabla('total');">
+        <div class="pagina">
+            <div class="Titulo">
+                <h1> <img src="static/images/Atleti.png" alt="" width="5%" height="5%"/>     Club Atletico de Madrid </h1>
+            </div>
+
+            <ul class="nav nav-tabs nav-justified">
+                <li class="nav-item">
+                    <a class="nav-link" href="menuPrincipal.html">Pagina Principal</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="Plantilla.html">Plantilla</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" href="#">LaLiga Santander</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="inicioSesion.html">Iniciar Sesion</a>
+                </li>
+            </ul>
+
+            <div class="texto-Estadisticas">
+                <FONT SIZE=5>Estadisticas Liga Santander - Temporada 2020/2021</FONT>
+            </div>
+
+            <hr class="Linea">
+
+            <div class="filtros">
+                <button type="button" class="btn btn-dark btn-pequeño" onClick="genera_tabla('total');">Clasificacion</button>
+                <button type="button" class="btn btn-dark" onClick="genera_tabla('local');">Clasificacion Local</button>
+                <button type="button" class="btn btn-dark" onClick="genera_tabla('visitante');">Clasificacion Visitante</button>
+                <button type="button" class="btn btn-dark btn-pequeño" onClick="genera_pichichi();">Pichichi</button>
+                <button type="button" class="btn btn-dark" onClick="genera_historico();">Ultimos vencedores</button>
+            </div>
+
+            <hr class="Linea">
+
+            <div id="contenido">
+
+            </div>
+        </div>
+
+        <footer class="navbar-fixed-bottom">
+
+            <div class="social">
+                <a href="https://www.facebook.com"><img src="static/images/fb.png" width="3%" height="3%" alt="facebook"  ></a>
+                <a href="https://www.twitter.com"><img src="static/images/tw.png" width="3%" height="3%" alt="youtube"></a>
+                <a href="https://www.instagram.com"><img src="static/images/in.png" width="3%" height="3%" alt="youtube"></a>
+                <a href="https://www.whatsapp.com"><img src="static/images/wh.png" width="3%" height="3%" alt="youtube"></a>
+            </div>
+
+            <div class="Copyright">
+                <p class="texto" align="center">© 2021 AtletiMadrid All rights reserved.</p>
+            </div>
+
+        </footer>
+    </body>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</html>
+

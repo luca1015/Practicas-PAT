@@ -1,0 +1,73 @@
+.Titulo{
+    font-size: 15pt;
+    text-align: center;
+    background: rgb(204, 68, 74);
+    background-size: 100% 100%;
+    height: 60%;
+    color: white;
+    padding-top: 2%;
+}
+.bar{
+    margin-bottom: 2%;
+
+}
+.Copyright{
+    background: rgb(204, 68, 74);
+    height: 100%;
+    color:white;
+}
+footer {
+    position: relative;
+    width: 100%;
+    color: white;
+    margin-top: 5%;
+}
+.social{
+    align: center;
+}
+.texto-Estadisticas, .Linea, .filtros, #contenido{
+    margin-left: 10%;
+    margin-right: 10%;
+    width: 80%;
+}
+.nav-link{
+    color:rgb(204, 68, 74);
+}
+.texto-Estadisticas{
+    margin-top: 3%;
+}
+.btn-dark{
+    margin-right: 5%;
+}
+.tabla_clas{
+    width: 100%;
+    margin-top: 3%;
+}
+.tabla_pi{
+    width: 60%;
+    margin-top: 3%;
+    margin-left: 20%;
+}
+.celda-img{
+    width: 5%;
+}
+.celda-forma{
+    width: 10%;
+}
+.celda{
+    width: 6%;
+    text-align: center;
+}
+.imgre{
+    width: 50%;
+}
+.imgClub{
+    width: 7%;
+}
+.celda-ti{
+    color: white;
+    background: rgb(204, 68, 74);
+}
+.centrar{
+    text-align: center;
+}

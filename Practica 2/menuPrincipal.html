@@ -6,222 +6,152 @@
     <title>Práctica 2. Atletico de Madrid</title>
     <link href="static/CSS/MenuPrincipal.css" rel="stylesheet" type="text/css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script type="text/javascript" src="menuPrincipal.js"></script>
+
 </head>
 
-<body>
-    <div class="pagina">
-        <div class="Titulo">
-            <h1> <img src="static/images/Atleti.png" alt="" width="5%" height="5%"/>     Club Atletico de Madrid </h1>
-        </div>
+<body onload="addTablas();">
+<div class="pagina">
+    <div class="Titulo">
+        <h1> <img src="static/images/Atleti.png" alt="" width="5%" height="5%"/>     Club Atletico de Madrid </h1>
+    </div>
 
-        <ul class="nav nav-tabs nav-justified">
-            <li class="nav-item">
-                <a class="nav-link active" href="#">Pagina Principal</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="Plantilla.html">Plantilla</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="inicioSesion.html">Iniciar Sesion</a>
-            </li>
-        </ul>
+    <ul class="nav nav-tabs nav-justified">
+        <li class="nav-item">
+            <a class="nav-link active" href="#">Pagina Principal</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="Plantilla.html">Plantilla</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="laLiga.html">LaLiga Santander</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="inicioSesion.html">Iniciar Sesion</a>
+        </li>
+    </ul>
 
-        <div class="Multimedia">
-            <div class="Imagenes">
-                <div id="id_imagenes" class="carousel slide" data-ride="carousel">
+    <div class="Multimedia">
+        <div class="Imagenes">
+            <div id="id_imagenes" class="carousel slide" data-ride="carousel">
 
-                    <!-- Indicators -->
-                    <ul class="carousel-indicators">
-                        <li data-target="#demo" data-slide-to="0" class="active"></li>
-                        <li data-target="#demo" data-slide-to="1"></li>
-                        <li data-target="#demo" data-slide-to="2"></li>
-                    </ul>
+                <!-- Indicators -->
+                <ul class="carousel-indicators">
+                    <li data-target="#demo" data-slide-to="0" class="active"></li>
+                    <li data-target="#demo" data-slide-to="1"></li>
+                    <li data-target="#demo" data-slide-to="2"></li>
+                </ul>
 
-                    <!-- The slideshow -->
-                    <div class="carousel-inner">
-                        <div class="carousel-item active">
-                            <img src="static/images/Imagen2.png" width="1100" height="500">
-                        </div>
-                        <div class="carousel-item">
-                            <img src="static/images/Imagen.png"width="1100" height="500">
-                        </div>
-                        <div class="carousel-item">
-                            <img src="static/images/Imagen3.png"width="1100" height="500">
-                        </div>
+                <!-- The slideshow -->
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="static/images/Imagen2.png" width="1100" height="500">
                     </div>
-
-                    <!-- Left and right controls -->
-                    <a class="carousel-control-prev" href="#id_imagenes" data-slide="prev">
-                        <span class="carousel-control-prev-icon"></span>
-                    </a>
-                    <a class="carousel-control-next" href="#id_imagenes" data-slide="next">
-                        <span class="carousel-control-next-icon"></span>
-                    </a>
+                    <div class="carousel-item">
+                        <img src="static/images/Imagen.png"width="1100" height="500">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="static/images/Imagen3.png"width="1100" height="500">
+                    </div>
                 </div>
-            </div>
 
-            <div class="Video">
-                <video style="margin-left: 25%;" width="77%" height="67%" controls autoplay>
-                    <source src="static/images/video.mp4" type="video/mp4">
-                </video>
-            </div>
-        </div>
-        <div class="Tablas">
-            <div class="Clasificacion">
-                <table class="table">
-                    <td colspan="4" class="tituloTabla" align="center"><strong>Clasificion Liga Santander - Puestos Europeros</strong></td>
-                    <tbody class="apartadosTabla">
-                    <tr>
-                        <th>Club</th>
-                        <th>Pts</th>
-                        <th>PJ</th>
-                        <th>Dg</th>
-                    </tr>
-                    </tbody>
-                    <tbody>
-                    <tr>
-                        <td>Atletico Madrid</td>
-                        <td>51</td>
-                        <td>20</td>
-                        <td>30</td>
-                    </tr>
-                    <tr>
-                        <td>Real Madrid</td>
-                        <td>46</td>
-                        <td>22</td>
-                        <td>20</td>
-                    </tr>
-                    <tr>
-                        <td>Barcelana</td>
-                        <td>43</td>
-                        <td>21</td>
-                        <td>22</td>
-                    </tr>
-                    <tr>
-                        <td>Sevilla</td>
-                        <td>42</td>
-                        <td>22</td>
-                        <td>15</td>
-                    </tr>
-                    <tr>
-                        <td>Villareal</td>
-                        <td>36</td>
-                        <td>22</td>
-                        <td>9</td>
-                    </tr>
-                    <tr>
-                        <td>Real Sociedad</td>
-                        <td>35</td>
-                        <td>22</td>
-                        <td>16</td>
-                    </tr>
-                    <tr>
-                        <td>Betis</td>
-                        <td>30</td>
-                        <td>22</td>
-                        <td>-8</td>
-                    </tr>
-                    </tbody>
-                </table>
-            </div>
-            <div class="Clasificacion">
-                <table class="table">
-                    <td colspan="3" class="tituloTabla" align="center"><strong>Proximos partidos Atletico Madrid</strong></td>
-                    <tbody class="apartadosTabla">
-                    <tr>
-                        <th>Competicion</th>
-                        <th>Partido</th>
-                        <th>Dia y hora</th>
-                    </tr>
-                    </tbody>
-                    <tbody>
-                    <tr>
-                        <td>Liga</td>
-                        <td>Granada-Atleti</td>
-                        <td><strong>13/02</strong> 14:00</td>
-                    </tr>
-                    <tr>
-                        <td>Liga</td>
-                        <td>Levante-Atleti</td>
-                        <td><strong>17/02</strong> 19:00</td>
-                    </tr>
-                    <tr>
-                        <td>Liga</td>
-                        <td>Atleti-Levante</td>
-                        <td><strong>20/02</strong> 16:15</td>
-                    </tr>
-                    <tr>
-                        <td>Champios</td>
-                        <td>Atleti-Chelsea</td>
-                        <td><strong>23/02</strong> 21:00</td>
-                    </tr>
-                    <tr>
-                        <td>Liga</td>
-                        <td>Villareal-Atleti</td>
-                        <td><strong>28/02</strong> 17:00</td>
-                    </tr>
-                    <tr>
-                        <td>Champions</td>
-                        <td>Chelsea-Atleti</td>
-                        <td><strong>5/03</strong> 21:00</td>
-                    </tr>
-                    <tr>
-                        <td>Liga</td>
-                        <td>Atleti-Real Sociedad</td>
-                        <td><strong>8/03</strong> 16:15</td>
-                    </tr>
-                    </tbody>
-                </table>
+                <!-- Left and right controls -->
+                <a class="carousel-control-prev" href="#id_imagenes" data-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </a>
+                <a class="carousel-control-next" href="#id_imagenes" data-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </a>
             </div>
         </div>
 
-        <ul class="nav nav-pills">
-            <li class="nav-item">
-                <a class="nav-link active">Comentarios <span class="badge badge-light">3</span></a>
-            </li>
-        </ul>
+        <div class="Video">
+            <video style="margin-left: 25%;" width="77%" height="67%" controls autoplay>
+                <source src="static/images/video.mp4" type="video/mp4">
+            </video>
+        </div>
+    </div>
+    <div class="Tablas">
+        <div class="Clasificacion tabla1">
+            <table class="table" id="clasificacionLiga">
+                <td colspan="4" class="tituloTabla" align="center"><strong>Clasificion Liga Santander - Puestos Europeros</strong></td>
+                <tbody class="apartadosTabla">
+                <tr>
+                    <th>Club</th>
+                    <th>Pts</th>
+                    <th>PJ</th>
+                    <th>Dg</th>
+                </tr>
+                </tbody>
 
+            </table>
+        </div>
+        <div class="Clasificacion tabla2">
+            <table class="table" id="proximosPartidos">
+                <td colspan="3" class="tituloTabla" align="center"><strong>Proximos partidos Atletico Madrid</strong></td>
+                <tbody class="apartadosTabla">
+                <tr>
+                    <th>Competicion</th>
+                    <th>Partido</th>
+                    <th>Dia y hora</th>
+                </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <ul class="nav nav-pills">
+        <li class="nav-item">
+            <a class="nav-link active">Comentarios <span class="badge badge-light">3</span></a>
+        </li>
+    </ul>
+    <div id="id2">
         <div class="media border p-3">
-            <img src="static/images/Usuario1.png" alt="Lucas Martinez" class="mr-3 mt-3 rounded-circle" style="width:60px;">
+            <img src="static/images/Usuario1.png" alt="Lucas Martinez" class="mr-3 mt-3 rounded-circle wd">
             <div class="media-body">
-                <h4>Lucas Martinez <small><i>Publicado el 4 de enero, 2021</i></small></h4>
+                <h4>Lucas Martinez <small><i>Publicado el 4 de Enero, 2021</i></small></h4>
                 <p>Desde la llegada de Suarez estamos imparables. ¡Aupa Atleti!</p>
             </div>
         </div>
         <div class="media border p-3">
-            <img src="static/images/Usuario3.png" alt="Teresa Gonzalez" class="mr-3 mt-3 rounded-circle" style="width:60px;">
+            <img src="static/images/Usuario3.png" alt="Teresa Gonzalez" class="mr-3 mt-3 rounded-circle wd">
             <div class="media-body">
-                <h4>Teresa Gonzalez <small><i>Publicado el 5 de febrero, 2021</i></small></h4>
+                <h4>Teresa Gonzalez <small><i>Publicado el 5 de Febrero, 2021</i></small></h4>
                 <p>Yo soy del Real Oviedo, pero este equipo es increible.&#128513;</p>
                 <div class="media p-3">
                     <img src="static/images/Usuario2.png" alt="Lucas Martinez" class="mr-3 mt-3 rounded-circle" style="width:45px;">
                     <div class="media-body">
-                        <h4>Lucas Martinez <small><i>Publicado el 6 de febrero, 2021</i></small></h4>
+                        <h4>Lucas Martinez <small><i>Publicado el 6 de Febrero, 2021</i></small></h4>
                         <p>Eres bienvenida en la familia rojiblanca.&#129309;</p>
                     </div>
                 </div>
             </div>
         </div>
-        <div class="caja-texto"><textarea class="caja" name="comentarios" rows="2" cols="40">Escribe aquí tus comentarios</textarea></div>
+    </div>
+    <div class="caja-texto">
+        <textarea id="comentario" class="caja" name="comentarios" rows="2" cols="40">Escribe aquí tus comentarios</textarea>
+    </div>
+    <button type="button" class="btn btn-outline-danger comentar" onClick="añadirComentario();">Comentar</button>
 
+</div>
+
+<footer class="navbar-fixed-bottom">
+
+    <div class="social">
+        <a href="https://www.facebook.com"><img src="static/images/fb.png" width="3%" height="3%" alt="facebook"  ></a>
+        <a href="https://www.twitter.com"><img src="static/images/tw.png" width="3%" height="3%" alt="youtube"></a>
+        <a href="https://www.instagram.com"><img src="static/images/in.png" width="3%" height="3%" alt="youtube"></a>
+        <a href="https://www.whatsapp.com"><img src="static/images/wh.png" width="3%" height="3%" alt="youtube"></a>
     </div>
 
-    <footer class="navbar-fixed-bottom">
+    <div class="Copyright">
+        <p class="texto" align="center">© 2021 AtletiMadrid All rights reserved.</p>
+    </div>
 
-        <div class="social">
-            <a href="https://www.facebook.com"><img src="static/images/fb.png" width="3%" height="3%" alt="facebook"  ></a>
-            <a href="https://www.twitter.com"><img src="static/images/tw.png" width="3%" height="3%" alt="youtube"></a>
-            <a href="https://www.instagram.com"><img src="static/images/in.png" width="3%" height="3%" alt="youtube"></a>
-            <a href="https://www.whatsapp.com"><img src="static/images/wh.png" width="3%" height="3%" alt="youtube"></a>
-        </div>
-
-        <div class="Copyright">
-            <p class="texto" align="center">© 2021 AtletiMadrid All rights reserved.</p>
-        </div>
-
-    </footer>
+</footer>
 </body>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </html>
+
