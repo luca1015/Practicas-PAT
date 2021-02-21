@@ -18,6 +18,7 @@
 }
 footer {
     position: relative;
+    bottom: 0;
     width: 100%;
     color: white;
     margin-top: 5%;
@@ -64,6 +65,9 @@ footer {
 .imgClub{
     width: 7%;
 }
+.imgClub2{
+    width: 15%;
+}
 .celda-ti{
     color: white;
     background: rgb(204, 68, 74);
@@ -71,3 +75,36 @@ footer {
 .centrar{
     text-align: center;
 }
+.dropdown-menu{
+    max-height:200px;
+    overflow:scroll;
+}
+.jor-c{
+    float: left;
+}
+.jor-f{
+    overflow: hidden;
+    margin-top: 3%;
+}
+.img-c{
+    width: 30%;
+    margin-left: 25%;
+}
+.text-j{
+    font-size: small;
+}
+.f-1,.f-2{
+    color: white;
+    background: rgb(204, 68, 74);
+    width: 30%;
+    text-align: center;
+}
+.f-1{
+    margin-left: 5%;
+    margin-right: 10%;
+}
+.f-3{
+    margin-right: 5%;
+    width: 10%
+}
+
