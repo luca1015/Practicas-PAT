@@ -1,0 +1,74 @@
+.Titulo{
+    font-size: 15pt;
+    text-align: center;
+    background: rgb(204, 68, 74);
+    background-size: 100% 100%;
+    height: 60%;
+    color: white;
+    padding-top: 2%;
+}
+.carousel{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.l-f{
+    overflow: hidden;
+}
+.l-c{
+    padding-top: 8%;
+    float: left;
+}
+.titulo-p{
+    color: white;
+    text-align: center;
+    padding-top: 21%;
+}
+.l1{
+    margin-left: 17%;
+}
+.l2{
+    margin-left: 27%;
+}
+.navbar-brand{
+    color:white;
+}
+.navbar{
+    margin-top: 2%;
+    margin-left: 10%;
+    margin-right: 10%;
+    background: rgb(14, 44, 145);
+}
+
+.p-partidos{
+    background-image: url("../images/Champions.png");
+    height: 600px;
+    background-size: 100% 100%;
+    margin-top: 2%;
+
+}
+.Copyright{
+    background: rgb(204, 68, 74);
+    height: 100%;
+    color:white;
+}
+footer {
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    color: white;
+    margin-top: 5%;
+}
+.social {
+    align: center;
+}
+.nav-link{
+    color:rgb(204, 68, 74);
+}
+.texto-Plantilla, .Linea{
+    margin-top: 2%;
+    margin-left: 10%;
+    margin-right: 10%;
+    width: 80%;
+}
+
+

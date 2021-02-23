@@ -450,6 +450,7 @@ var direccion6 = 'https://api.football-data.org/v2/competitions/PD/matches?match
             })
             //Suscribimos a la promesa Body
             .then(r => {
+                console.log(r);
                 for (let step = 1; step < 4; step++) {
                     var imagen = r.seasons[step].winner.crestUrl;
                     var equipo = r.seasons[step].winner.name;
